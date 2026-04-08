@@ -10,10 +10,26 @@
 /* ATIVIDADE DO PROFESSOR */
 /* body{
     font-family: "Montserrat", sans-serif;
-    padding: 20px;
-}
+    font-size: 30px;
+    background-color: lightcoral;
+} */
+/* CELULAR */
+/* @media (max-width: 480px){
+    body{
+        font-size: 12px;
+        background-color: lightgreen;
+    }
+} */
+/* TABLET */
+/* @media (min-width: 481px) and (max-width: 768px){
+    body{
+        font-size: 20px;
+        background-color: lightskyblue; 
+    }
+} */
 
-.container-fixo{
+
+/* .container-fixo{
     width: 800px;
     background-color: #ffcccc;
     border: 2px solid red;
@@ -29,6 +45,7 @@
     margin-bottom: 20px;
     padding: 20px;
 } */
+
 
 body{
     font-family: "Montserrat", sans-serif;
@@ -54,6 +71,7 @@ h1{
 .foto{
     display: block;
     width: 30%;
+    margin: 0 auto;
     overflow: hidden;
     border: 2px solid #14172B;
     border-radius: 20px;
@@ -66,11 +84,14 @@ h1{
 
 .foto p{
     display: flex;
+    font-size: 25px;
     justify-content: center;
 }
 
 @media (max-width: 600px){
     .foto{
         width: 100%;
+        flex-direction: column;
     }
 }
+
